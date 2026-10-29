@@ -139,7 +139,7 @@ Escrito a partir da experiência de quem trabalha por dentro das instituições,
 Para gestores e funcionários públicos, profissionais e estudantes de comunicação, ciência política e administração pública, e para todos os que querem instituições mais próximas das pessoas.',
   '/img/livro-contributo.webp',
   '1.ª edição',
-  'Horizonte D''Letras',
+  'Editora Nemambo',
   true,
   1
 where not exists (select 1 from nemambo_livros where slug = 'contributo-da-comunicacao');

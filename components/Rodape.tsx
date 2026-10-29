@@ -24,7 +24,6 @@ export default function Rodape({ d }: { d: Definicoes }) {
           </nav>
           <div className="space-y-4">
             <Redes d={d} claro />
-            <a href="/feed.xml" className="block text-[14px] text-papel/55 hover:text-papel">Feed RSS</a>
           </div>
         </div>
       </div>

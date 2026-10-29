@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Livro3D({ capa, titulo, priority = false, className = "" }: { capa: string; titulo: string; priority?: boolean; className?: string }) {
   return (
     <div className={`group relative mx-auto w-full max-w-[300px] [perspective:1600px] ${className}`}>
-      <div className="relative aspect-[1088/1548] transition-transform duration-700 ease-out [transform-style:preserve-3d] [transform:rotateY(-24deg)_rotateX(4deg)] group-hover:[transform:rotateY(-12deg)_rotateX(2deg)]">
+      <div className="relative aspect-[2/3] transition-transform duration-700 ease-out [transform-style:preserve-3d] [transform:rotateY(-24deg)_rotateX(4deg)] group-hover:[transform:rotateY(-12deg)_rotateX(2deg)]">
         {/* páginas (espessura) */}
         <div className="absolute right-0 top-[1.2%] h-[97.6%] w-[34px] origin-right bg-[repeating-linear-gradient(90deg,#f4f1ea_0_1px,#dcd6ca_1px_2px)] [transform:translateX(17px)_translateZ(-17px)_rotateY(90deg)]" aria-hidden />
         {/* contracapa */}
